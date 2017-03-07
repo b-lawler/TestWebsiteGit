@@ -37,6 +37,11 @@
             <p>
                 <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
+            <asp:DropDownList ID="ddlNames" runat="server">
+                <asp:ListItem Text=" -- Select Name -- " />
+                <asp:ListItem Text ="Blake" />
+                <asp:ListItem Text ="Nathan" />
+            </asp:DropDownList>
         </div>
     </div>
 </asp:Content>
