@@ -29,6 +29,7 @@
             </p>
         </div>
         <div class="col-md-4">
+            <h1>Even Larger Heading Here!</h1>
             <h2>Web Hosting</h2>
             <p>
                 You can easily find a web hosting company that offers the right mix of features and price for your applications.
