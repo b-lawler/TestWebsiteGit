@@ -9,6 +9,13 @@ public partial class _Default : Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        
+    }
 
+
+
+    protected void ddlNames_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        lblName.Text = ddlNames.SelectedItem.Text;
     }
 }
