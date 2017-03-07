@@ -37,13 +37,18 @@
             <p>
                 <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
-            <asp:DropDownList ID="ddlNames" runat="server" OnSelectedIndexChanged="ddlNames_SelectedIndexChanged" AutoPostBack="true">
-                <asp:ListItem Text=" -- Select Name -- " />
-                <asp:ListItem Text ="Blake" />
-                <asp:ListItem Text ="Nathan" />
-            </asp:DropDownList>
+            <asp:UpdatePanel ID="pnlNames" runat="server">
+                <ContentTemplate>
+                    <asp:DropDownList ID="ddlNames" runat="server" OnSelectedIndexChanged="ddlNames_SelectedIndexChanged" AutoPostBack="true">
+                        <asp:ListItem Text=" -- Select Name -- " />
+                        <asp:ListItem Text="Blake" />
+                        <asp:ListItem Text="Nathan" />
+                    </asp:DropDownList>
 
-            <asp:Label ID="lblName" runat="server"></asp:Label>
+                    <asp:Label ID="lblName" runat="server"></asp:Label>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+
         </div>
     </div>
 </asp:Content>
