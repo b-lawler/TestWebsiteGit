@@ -16,6 +16,7 @@ public partial class _Default : Page
 
     protected void ddlNames_SelectedIndexChanged(object sender, EventArgs e)
     {
+        lblName.Text = "Name here";
         lblName.Text = ddlNames.SelectedItem.Text;
     }
 }
