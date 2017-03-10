@@ -25,6 +25,7 @@
             <h1>Even Larger Heading Here!</h1>
             <h2>Get more libraries</h2>
             <p>
+                Hello.
                 NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
             </p>
             <p>
