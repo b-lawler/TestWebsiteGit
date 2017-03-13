@@ -52,7 +52,7 @@
                     <asp:Label ID="lblName" runat="server"></asp:Label>
                 </ContentTemplate>
             </asp:UpdatePanel>
-
+            <asp:DropDownList ID="ddlTest" runat="server" />
         </div>
     </div>
 </asp:Content>
