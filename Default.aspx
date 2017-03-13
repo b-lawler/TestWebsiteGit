@@ -35,6 +35,7 @@
         <div class="col-md-4">
             <h2>Web Hosting</h2>
             <p>
+                Here is a change that is done on the wrong branch.
                 You can easily find a web hosting company that offers the right mix of features and price for your applications.
             </p>
             <p>
